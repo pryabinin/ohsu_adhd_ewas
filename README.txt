@@ -1,3 +1,8 @@
+Authors:
+	Peter Ryabinin ryabinip@ohsu.edu
+	Beth Wilmot
+
+
 This folder describes the quality control, normalization, and analyses in this experiment. The scripts describe the workflow, note that the scripts will not run successfully since they reference data files that are not provided.
 
 The order of the workflow is:
