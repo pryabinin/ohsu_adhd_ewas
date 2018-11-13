@@ -10,7 +10,7 @@ mQTL_analysis.R
 
 Script explanations:
 quality_control_and_normalization.R
-	This script goes over quality control checks for filtering out poorly performing samples and probes, as well as the normalization method we used on this experiment.[1,2
+	This script goes over quality control checks for filtering out poorly performing samples and probes, as well as the normalization method we used on this experiment.[1,2]
 
 probe_filtering.R
 	This script removes probes for the following reasons:
@@ -35,7 +35,7 @@ full_model_analysis.R
 		Adjusted Beta Value ~ 1 + ADHD status + Sex + Age + Genomic PCs1-3
 
 mQTL_analysis.R
-	Perform mQTL analysis using the GEM framework for the top most differentially methylation. First, text files for use in GEM are generated (covariate file, genotype file, and methylation file). Then, run the GEM G model using the generated files.
+	Perform mQTL analysis using the GEM framework for the top most differentially methylated probes. First, text files for use in GEM are generated (covariate file, genotype file, and methylation file). The genotype file is generated using the GWASTools[3] framework for objects. Then, run the GEM G model using the generated files.
 
 References:
 	
